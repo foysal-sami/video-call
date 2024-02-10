@@ -9,7 +9,7 @@ myVideo.muted = true;
 var peer = new Peer(undefined, {
   path: "/peerjs",
   host: "https://video-call-seqk.onrender.com",
-  port: process.env.PORT || 3030,
+  port: "3030",
 });
 
 let myVideoStream;
